@@ -2,7 +2,7 @@
         the median value is the kth element, where k = n/2 = 50 
         when the array is sorted
 
-        Author:  John Young     Student ID: n9878203
+        Author:  John Young    
 */
 
 #include<stdio.h>
@@ -11,11 +11,8 @@
 #include<stdbool.h>
 #include<time.h>
 
-
-
-
 int values;
-int max_value = 100;
+int max_value = 100;    // default, changed on input
 int tests;
 int num_smaller;
 int num_equal;
